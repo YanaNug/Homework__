@@ -15,7 +15,8 @@ int count=0;
 for(int i = 0; i < array.Length; i++)
 {
     int num = array[i];
-    if(num % 2 == 0){
+    if(num % 2 == 0)
+    {
         count++;
     }
 }
